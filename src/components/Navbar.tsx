@@ -19,10 +19,9 @@ const Navbar: React.FC = () => {
         
         {/* Logo Recreated */}
         <div className="logo-container">
-          <a href="#" className="logo">
-            Sur
+          <a href="#" className="nav-logo-link">
+            <img src="/src/assets/logo-artesanal.png" alt="Panadería Sur" className="nav-logo-img" />
           </a>
-          <span className="logo-dots"></span>
         </div>
 
         {/* Desktop Menu */}

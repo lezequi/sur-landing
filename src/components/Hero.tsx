@@ -5,15 +5,19 @@ const Hero: React.FC = () => {
     <header className="hero">
       <div className="container hero-container">
         <div className="hero-content animate-fade-in">
+          <img src="/src/assets/logo-artesanal.png" alt="Sello Sur" className="hero-logo-large" />
           <h1 className="hero-title">
-            Panadería<br/>
-            y Confitería<br/>
-            <span className="text-secondary-logo">Sur</span>
+            Pasión por la<br/>
+            tradición<br/>
+            <span className="text-secondary-logo">artesanal.</span>
           </h1>
           <p className="hero-subtitle">
-            La esquina de siempre en Zona Sur. Desde hace tres generaciones, el pan caliente y las facturas de verdad en la mesa de cada vecino.
+            Orgullosamente hecho en Argentina. Llevamos el sabor del barrio a un nivel superior, respetando cada receta de nuestra historia.
           </p>
-          <button className="btn-primary mt-4">Nuestra Historia</button>
+          <div className="hero-btns mt-4">
+            <button className="btn-primary">Ver Especialidades</button>
+            <button className="btn-outline ml-4">Nuestra Historia</button>
+          </div>
         </div>
         
         <div className="hero-image-wrapper animate-fade-in">
