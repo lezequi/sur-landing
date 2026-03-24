@@ -1,28 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playball&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
 
 :root {
-  /* Colors */
-  --bg-primary: #F7F5EF;       /* Warm beige background */
-  --bg-secondary: #0A2E1F;     /* Deep dark green */
-  --text-primary: #1A1A1A;     /* Soft black */
-  --text-secondary: #5A5A5A;   /* Soft gray */
-  --text-light: #F7F5EF;       /* Light text for dark backgrounds */
-  --accent-rust: #AA5640;      /* Rust/Terracotta red for buttons and accents */
-  --accent-gold: #D4AF37;      /* Subtle gold accents */
-  --card-olive: #8A9678;       /* Olive green used in cards */
-  --card-rust: #CA8E7D;        /* Lighter rust used in cards */
+  /* Colors from the real storefront */
+  --bg-primary: #F8F9FA;       /* Light grey/white like the walls */
+  --bg-secondary: #004D40;     /* Dark green like the awnings */
+  --text-primary: #333333;     /* Dark grey for text */
+  --text-secondary: #666666;   
+  --text-light: #F8F9FA;
+  --accent-burgundy: #800000;  /* Burgundy red from the Sur logo */
+  --accent-green-bright: #2E7D32; /* Lighter green for accents */
 
   /* Typography */
   --font-logo: 'Playball', cursive;
-  --font-heading: 'Playfair Display', serif;
+  --font-heading: 'Lora', serif;
   --font-body: 'Inter', sans-serif;
   --font-quote: 'Lora', serif;
 
   /* Spacing & Layout */
   --max-width: 1200px;
-  --radius-sm: 4px;
-  --radius-md: 8px;
-  --radius-lg: 16px;
+  --radius-sm: 0px; /* Square corners like the store front */
+  --radius-md: 4px;
+  --radius-lg: 8px;
 }
 
 * {
@@ -73,7 +71,7 @@ button {
 }
 
 .btn-primary {
-  background-color: var(--bg-secondary);
+  background-color: var(--bg-secondary); /* Dark Green */
   color: var(--text-light);
   padding: 0.8rem 1.5rem;
   border-radius: var(--radius-sm);
@@ -82,12 +80,12 @@ button {
 }
 
 .btn-primary:hover {
-  background-color: #0d3d29;
+  background-color: #00362b;
   transform: translateY(-2px);
 }
 
 .btn-accent {
-  background-color: var(--accent-rust);
+  background-color: var(--accent-burgundy);
   color: var(--text-light);
   padding: 0.8rem 1.5rem;
   border-radius: var(--radius-sm);
@@ -96,7 +94,7 @@ button {
 }
 
 .btn-accent:hover {
-  background-color: #8c4431;
+  background-color: #600000;
   transform: translateY(-2px);
 }
 
@@ -118,11 +116,20 @@ button {
 .logo {
   font-family: var(--font-logo);
   font-size: 2.5rem;
-  color: var(--bg-secondary);
+  color: var(--accent-burgundy);
   line-height: 1;
   position: relative;
   display: inline-block;
-  transform: rotate(-5deg); /* Slight rotation like the sign */
+  transform: rotate(-3deg); /* Slight rotation like the sign */
+}
+
+.text-secondary-logo {
+  font-family: var(--font-logo);
+  color: var(--accent-burgundy);
+  font-size: 1.5em;
+  display: block;
+  margin-top: 0.5rem;
+  font-weight: normal;
 }
 
 /* Animations */

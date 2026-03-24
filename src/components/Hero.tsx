@@ -6,20 +6,20 @@ const Hero: React.FC = () => {
       <div className="container hero-container">
         <div className="hero-content animate-fade-in">
           <h1 className="hero-title">
-            Artesanos<br/>
-            desde siempre.<br/>
-            <span className="text-accent">Modernos para vos.</span>
+            Panadería<br/>
+            y Confitería<br/>
+            <span className="text-secondary-logo">Sur</span>
           </h1>
           <p className="hero-subtitle">
-            Redescubrí los sabores de nuestra tierra con técnicas ancestrales y la mejor materia prima orgánica.
+            La esquina de siempre en Zona Sur. Desde hace tres generaciones, el pan caliente y las facturas de verdad en la mesa de cada vecino.
           </p>
-          <button className="btn-primary mt-4">Explorá nuestro horno</button>
+          <button className="btn-primary mt-4">Nuestra Historia</button>
         </div>
         
         <div className="hero-image-wrapper animate-fade-in">
           <img 
-            src="https://images.unsplash.com/photo-1549931319-a545dcf3bc73?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
-            alt="Pan de masa madre artesanal" 
+            src="/src/assets/storefront.png" 
+            alt="La fachada de la Panadería Sur en Zona Sur" 
             className="hero-image"
           />
           <div className="image-backdrop"></div>

@@ -3,26 +3,26 @@
 const specialties = [
   {
     id: 1,
-    title: 'Pan de Campo',
-    description: 'Textura suave y costra dorada y crujiente, inigualable.',
-    image: 'https://images.unsplash.com/photo-1549931319-a545dcf3bc73?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80',
-    badge: null,
+    title: 'Pan de la Esquina',
+    description: 'El flauta de siempre, con la cáscara crocantita y la miga bien suave.',
+    image: '/src/assets/pan-barrio.png',
+    badge: 'FRESCO',
     hasButton: true
   },
   {
     id: 2,
-    title: 'Medialunas de Grasa',
-    description: 'Hojaldres tradicionales con grasa vacuna refinada.',
-    image: 'https://images.unsplash.com/photo-1549506680-305ce78bc2ee?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80',
-    badge: 'CLÁSICO',
+    title: 'Facturas de Domingo',
+    description: 'Medialunas de manteca, vigilantes y cañoncitos recién bañados en almíbar.',
+    image: '/src/assets/facturas.png',
+    badge: 'EL FAVORITO',
     hasButton: false
   },
   {
     id: 3,
-    title: 'Masas Finas',
-    description: 'Delicadeza artesanal ideal para acompañar el té o el café.',
-    image: 'https://images.unsplash.com/photo-1495147466023-ac5c588e2e94?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80',
-    badge: 'GOURMET',
+    title: 'Sandwich de Miga',
+    description: 'Hechos con el mejor jamón y queso, con pan de elaboración propia.',
+    image: '/src/assets/miga.png',
+    badge: 'CASERO',
     hasButton: false
   }
 ];
